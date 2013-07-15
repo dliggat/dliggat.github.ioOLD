@@ -4,7 +4,7 @@
   <title><![CDATA[liggat.org]]></title>
   <link href="http://liggsie.github.io/atom.xml" rel="self"/>
   <link href="http://liggsie.github.io/"/>
-  <updated>2013-07-14T13:49:24-04:00</updated>
+  <updated>2013-07-15T10:04:31-04:00</updated>
   <id>http://liggsie.github.io/</id>
   <author>
     <name><![CDATA[Dave Liggat]]></name>
@@ -18,7 +18,35 @@
     <link href="http://liggsie.github.io/blog/2013/07/14/octopress-dot-new/"/>
     <updated>2013-07-14T13:43:00-04:00</updated>
     <id>http://liggsie.github.io/blog/2013/07/14/octopress-dot-new</id>
-    <content type="html"><![CDATA[<p>Just had a false start. Let&rsquo;s try this again.</p>
+    <content type="html"><![CDATA[<p>Just migrated my [meagre] blog content over from Tumblr to a brand new, shiny Octopress instance.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Android as Anti-Platform]]></title>
+    <link href="http://liggsie.github.io/blog/2013/05/11/android-as-anti-platform/"/>
+    <updated>2013-05-11T09:55:00-04:00</updated>
+    <id>http://liggsie.github.io/blog/2013/05/11/android-as-anti-platform</id>
+    <content type="html"><![CDATA[<p>It feels awkward to criticize Android as the owner of several physical manifestations of the pride of Cupertino. That ownership seems to irrevocably wash away any possibility of one’s objectivity in the court of Android opinion, despite what ought to count as pretty good “Android credentials&#8221; (I’m a happy alumni of the G1, Nexus One, HTC Desire HD and Nexus 7, and participated in beta-testing/review of the G1 before it was announced as a consumer product). And yet, it’s impossible for me not to voice displeasure at what Samsung is now up to:</p>
+
+<p>In an unprecedented move Samsung announced a deal on Thursday to make an established, high profile Android app incompatible with every Android smartphone except its own. The app in question is ITV Player, the catch up service for ITV &ndash; the UK’s largest independent terrestrial broadcaster</p>
+
+<p>In retrospect, the ideals of Android were hopelessly optimistic: a modern, mobile platform unicorn that would disrupt, humble, and commoditize the carriers, and unite the hardware manufacturers into providing a cornucopia of consumer choice. It should’ve been obvious, at least, that the cellular gatekeepers would not be trounced so easily &ndash; which is why we now live in a world of forked carrier versions of Android, serviceable hardware hobbled by the lack of carrier-controlled OS updates, and needless “value-adding differentiation&#8221; of software on devices. At least much of that could be avoided by sticking with pure-Android Nexus devices, bought straight from Google.</p>
+
+<p>But consider the subversion of Android that this latest chess-move by Samsung represents. They’ve managed to outright exclude Nexus owners from ITV Player in favour of their own devices, using, undoubtedly, the persuasive power of currency. I’m not sure that a precedent for this exists elsewhere in the computing industry’s [rather cutthroat] past. Imagine if Dell successfully convinced Adobe that Photoshop should only be compatible with their particular incarnation of Windows XP machines. Consequently, Android is no longer simply <em>not-a-platform</em> (thanks to the carriers); it has in fact become an <em>anti-platform</em> &ndash; an agent of chaos among existing Android network-effects.</p>
+
+<p>All things considered, it’s just one more disappointment in a long line. But I wish the anti-Apple brigade would spend even 10% of the energy they have for generating vitriol in protest of the destructive actions of the subversive actors in the Android space. This is why, in May 2013, iOS remains the only serious mobile computing <em>platform</em>. I wish it were not thus, but I’m not optimistic this will change any time soon.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Tweet Archive]]></title>
+    <link href="http://liggsie.github.io/blog/2013/05/07/tweet-archive/"/>
+    <updated>2013-05-07T09:55:00-04:00</updated>
+    <id>http://liggsie.github.io/blog/2013/05/07/tweet-archive</id>
+    <content type="html"><![CDATA[<p>When Twitter announced in late 2012 that its users could download their tweet archive, it had a begrudging whiff about it. Given the company’s recent heavy-handedness with API access for not only 3rd-party clients but also complementary services such as Flipboard, I was somewhat surprised it even arrived as promised months earlier. I have no insight into the machinations of Twitter Inc. whatsoever, but for some reason I imagine an executive suite very reluctant to relinquish sole ownership of the veritable treasure trove of historical tweets. However, the constant haranguing by their power users, as well as a general environment that frowns upon overtly blatant lock-in (Google Takeout and the Data Liberation Front do a pretty good job setting a decent industry standard here) probably swung the balance.</p>
+
+<p>This leads me to speculate that Twitter didn’t foresee what an incredible enhancement to their product that Tweet Archive actually is. To look back at previous tweets, retweets and favourites is like a time machine for visiting my own personality in the past. It is truly fascinating to see what I was interested in <code>$X $TIME_UNITS</code> ago, and consequently, I’m tweeting, retweeting, and favouriting more now &ndash; just for the pure whimsical pleasure of viewing this data in the future. Twitter has relinquished a measure of control over its service, and has consequently ‘locked-in’, at least me, ever more. This feels like a nice all-around dynamic &ndash; they’ve given me more control over my data, and have managed to bring me closer into the fold as a user as a result.</p>
 ]]></content>
   </entry>
   
