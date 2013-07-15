@@ -5,4 +5,4 @@ date: 2013-07-14 13:43
 comments: true
 categories:
 ---
-Just had a false start. Let's try this again.
+Just migrated my [meagre] blog content over from Tumblr to a brand new, shiny Octopress instance.
