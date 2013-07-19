@@ -4,7 +4,7 @@
   <title><![CDATA[liggat.org]]></title>
   <link href="http://liggsie.github.io/atom.xml" rel="self"/>
   <link href="http://liggsie.github.io/"/>
-  <updated>2013-07-19T11:01:55-04:00</updated>
+  <updated>2013-07-19T11:08:47-04:00</updated>
   <id>http://liggsie.github.io/</id>
   <author>
     <name><![CDATA[Dave Liggat]]></name>
@@ -27,7 +27,7 @@
     <link href="http://liggsie.github.io/blog/2013/05/11/android-as-anti-platform/"/>
     <updated>2013-05-11T09:55:00-04:00</updated>
     <id>http://liggsie.github.io/blog/2013/05/11/android-as-anti-platform</id>
-    <content type="html"><![CDATA[<p>It feels awkward to criticize Android as the owner of several physical manifestations of the pride of Cupertino. That ownership seems to irrevocably wash away any possibility of one’s objectivity in the court of Android opinion, despite what ought to count as pretty good “Android credentials&#8221; (I’m a happy alumni of the G1, Nexus One, HTC Desire HD and Nexus 7, and participated in beta-testing/review of the G1 before it was announced as a consumer product). And yet, it’s impossible for me not to voice displeasure at what Samsung is now up to:</p>
+    <content type="html"><![CDATA[<p>It feels awkward to criticize Android as the owner of several physical manifestations of the pride of Cupertino. That ownership seems to irrevocably wash away any possibility of one’s objectivity in the court of Android opinion, despite what ought to count as pretty good “Android credentials&#8221; (I’m a happy alumni of the G1, Nexus One, HTC Desire HD and Nexus 7, and participated in beta-testing/review of the G1 before it was announced as a consumer product). <!--more--> And yet, it’s impossible for me not to voice displeasure at what Samsung is now up to:</p>
 
 <blockquote><p>In an unprecedented move Samsung announced a deal on Thursday to make an established, high profile
 Android app incompatible with every Android smartphone except its own. The app in question is ITV
@@ -46,7 +46,7 @@ Player, the catch up service for ITV &ndash; the UK’s largest independent terr
     <link href="http://liggsie.github.io/blog/2013/05/07/tweet-archive/"/>
     <updated>2013-05-07T09:55:00-04:00</updated>
     <id>http://liggsie.github.io/blog/2013/05/07/tweet-archive</id>
-    <content type="html"><![CDATA[<p>When Twitter announced in late 2012 that its users could download their tweet archive, it had a begrudging whiff about it. Given the company’s recent heavy-handedness with API access for not only 3rd-party clients but also complementary services such as Flipboard, I was somewhat surprised it even arrived as promised months earlier. I have no insight into the machinations of Twitter Inc. whatsoever, but for some reason I imagine an executive suite very reluctant to relinquish sole ownership of the veritable treasure trove of historical tweets. However, the constant haranguing by their power users, as well as a general environment that frowns upon overtly blatant lock-in (Google Takeout and the Data Liberation Front do a pretty good job setting a decent industry standard here) probably swung the balance.</p>
+    <content type="html"><![CDATA[<p>When Twitter announced in late 2012 that its users could download their tweet archive, it had a begrudging whiff about it. Given the company’s recent heavy-handedness with API access for not only 3rd-party clients but also complementary services such as Flipboard, I was somewhat surprised it even arrived as promised months earlier. <!--more--> I have no insight into the machinations of Twitter Inc. whatsoever, but for some reason I imagine an executive suite very reluctant to relinquish sole ownership of the veritable treasure trove of historical tweets. However, the constant haranguing by their power users, as well as a general environment that frowns upon overtly blatant lock-in (Google Takeout and the Data Liberation Front do a pretty good job setting a decent industry standard here) probably swung the balance.</p>
 
 <p>This leads me to speculate that Twitter didn’t foresee what an incredible enhancement to their product that Tweet Archive actually is. To look back at previous tweets, retweets and favourites is like a time machine for visiting my own personality in the past. It is truly fascinating to see what I was interested in <code>$X $TIME_UNITS</code> ago, and consequently, I’m tweeting, retweeting, and favouriting more now &ndash; just for the pure whimsical pleasure of viewing this data in the future. Twitter has relinquished a measure of control over its service, and has consequently ‘locked-in’, at least me, ever more. This feels like a nice all-around dynamic &ndash; they’ve given me more control over my data, and have managed to bring me closer into the fold as a user as a result.</p>
 ]]></content>
