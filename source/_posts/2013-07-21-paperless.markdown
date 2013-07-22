@@ -21,13 +21,13 @@ I'm sick to death of accumulating useless paper detritus. I've fantasized for qu
 Taken together, objections to Evernote for paperless seem mostly theoretical, rather than actual, to me. Moreover, the benefits in having a syncing, sortable, and _highly searchable_ archive seem worth tolerating that conjectural downside.
 
 #### Scanning
-{% img right /images/send_to_evernote.png 302 314 'Send to Evernote' %}
+{% img right /images/send_to_evernote.png 280 'Send to Evernote' %}
 
 I recently ordered a [Doxie One scanner](http://www.getdoxie.com/product/one/), for $147 CAD or thereabouts. It's simple, and gets the job done. Its OS X app manages to be not terrible for scanning/printing software, which is notable, though admittedly only due to the poverty of the competitive landscape. It quickly processes pages, and saves scans to an included SD card. The app purportedly does [OCR](http://en.wikipedia.org/wiki/Optical_character_recognition) (I'll be relying on Evernote for this though), and allows individual PDFs to be 'stapled' into multi-page documents, and then sent on to Evernote.
 
 
 #### Evernote Notes
-Once in Evernote, I assign the note containing the scanned PDF to an appropriate notebook (a yearly one for business expenses, and Archive for everything else). I wrote a small bash function to generate note titles in a predictable format:
+Once in Evernote, I assign the note containing the scanned PDF to an appropriate notebook (a yearly one for business expenses, and Archive for everything else). I wrote a small bash function to generate note titles in a consistent format:
 
     $ISO8601_FORMATTED_DATE => $LOWERCASE_DESCRIPTION (Paperless)
 
