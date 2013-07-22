@@ -1,6 +1,7 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+// Note: applies styling to h1 elements with class="entry-title".
 h1.entry-title {
   font-family: "Helvetica Neue", "Roboto", Arial;
 }
@@ -9,10 +10,30 @@ h1.entry-title {
   color: #aaa;
 }
 
-// pre.line-pre {
-//   font-size: 98%;
-// }
+// Note: style all li elements in the DOM.
+li {
+  margin-bottom: 10px;
+}
 
-// span {
-//   font-size: 98%;
-// }
+
+// Note: apply the same rules to both ul and ol items, but these are otherwise unrelated.
+ul, ol {
+  margin-left: 20px;
+}
+
+
+.footnotes {
+  margin-top: 50px;
+  font-size: 75%;          // Note: every element within a .footnotes div has font-size set to 75%.
+  line-height: 1.4em;
+  ol {
+    color: #888888;        // Note: style the ol number only by styling the whole ol, then the nested p.
+    p {
+      margin-bottom: 1em;
+      color: #000000;      // Note: generates:  .footnotes ol p { color: #000000; }
+                           // Applies styling to all p elements which have
+                           // descendance: .footnotes -> ol -> p.
+    }
+  }
+
+}
