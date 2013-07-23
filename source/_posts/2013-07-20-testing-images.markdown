@@ -7,6 +7,8 @@ published: false
 categories:
 ---
 
+<button class="btn btn-large btn-primary" type="button">Large button</button>
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque augue vitae sem tempus auctor. Proin et dui ac sem consequat ornare. Aenean non ornare est. Etiam vitae ultrices elit, vulputate pretium lorem. Praesent quis diam ut libero ornare mollis id ut lorem. Cras rutrum vitae neque sed tincidunt. Sed vel hendrerit orci. Etiam accumsan euismod molestie. Proin ut vulputate enim. Nulla sit amet mi pretium, lobortis sem a, molestie lorem. Quisque eu molestie velit. Ut at purus neque. Aliquam rutrum lectus gravida ipsum lacinia, et auctor tortor tristique. Sed et condimentum neque, in ultrices libero. Nullam non odio luctus, elementum magna id, aliquam justo.
 
 #### File goes into images - then specify dimensions for how it should display
