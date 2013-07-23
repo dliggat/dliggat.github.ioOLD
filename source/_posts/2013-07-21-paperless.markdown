@@ -21,12 +21,12 @@ I'm sick to death of accumulating useless paper detritus. I've fantasized for qu
 Taken together, objections to Evernote for paperless seem mostly theoretical, rather than actual, to me. Moreover, the benefits in having a syncing, sortable, and _highly searchable_ archive seem worth tolerating that conjectural downside.
 
 #### Scanning
-{% img right /images/send_to_evernote.png 280 'Send to Evernote' %}
+{% img right /images/send_to_evernote.png 275 'Send to Evernote' %}
 
 I recently ordered a [Doxie One scanner](http://www.getdoxie.com/product/one/), for $147 CAD or thereabouts. It's simple, and gets the job done. Its OS X app manages to be not terrible for scanning/printing software, which is notable, though admittedly only due to the poverty of the competitive landscape. It quickly processes pages, and saves scans to an included SD card. The app purportedly does [OCR](http://en.wikipedia.org/wiki/Optical_character_recognition) (I'll be relying on Evernote for this though), and allows individual PDFs to be 'stapled' into multi-page documents, and then sent on to Evernote.
 
 
-#### Evernote Notes
+#### Evernote Notes Titles
 Once in Evernote, I assign the note containing the scanned PDF to an appropriate notebook (a yearly one for business expenses, and Archive for everything else). I wrote a small bash function to generate note titles in a consistent format:
 
     $ISO8601_FORMATTED_DATE => $LOWERCASE_DESCRIPTION (Paperless)
@@ -47,14 +47,14 @@ I view 'security' as the dual-property that my data is available to me, and unav
 * Export my entire archive biweekly, and backup to an external drive and an off-site location[^2]
 * Encrypt particularly sensitive stored PDFs with a strong key (stored, obviously, outside of Evernote).
 
-With these practices in place, I can be sufficiently confident that access to my account is highly-restricted, and even in the worst case scenario of a full data-breach at Evernote, my most sensitive documents (tax receipts, bank statements, etc) are protected.
+With these practices in place, I feel sufficiently confident that access to my account is highly-restricted, and even in the worst case scenario of a full data-breach at Evernote, my most sensitive documents (tax receipts, bank statements, etc) are enciphered.
 
-{% img center /images/evernote_pdf_protected.png 'Protected PDF' %}
+{% img fancybox center /images/evernote_pdf_protected.png 'Protected PDF' %}
 
 ### Fin
-I'll inevitably evolve this over time, but I'm feeling pretty good about the setup so far, and its adherence to my objectives of **Recallable**, **Enduring**, **Robust**, & **Secure**. I'm pretty keenly adding stuff to my archive, and not yet experiencing any inertia or fedup-ness. That's probably a good sign.
+I'll inevitably evolve this over time, but I'm feeling pretty good about the setup so far, and its adherence to my goals of **Recallable**, **Enduring**, **Robust**, & **Secure**. So far, I've been happily adding stuff to my archive, and not yet experienced any inertia or fedup-ness. That's probably a good sign.
 
-There will be a few documents I'll begrudgingly retain in paper form - governments, ever stuck in the fax-machine era, tend to take a dim view of anything digital, but mostly, I'll be enthusiastically converting documents into Evernote notes, and destroying the originals forever.
+There will be a few documents I'll begrudgingly retain in paper form - governments, perennially stuck in the clipboard and fax-machine era, tend to take a dim view of anything digital, but mostly, I'll be enthusiastically converting documents into Evernote notes, and destroying the originals forever.
 
 Another victory for bits over atoms. Any comments, suggestions, or questions, please [get in touch](/about).
 

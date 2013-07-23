@@ -3,6 +3,7 @@
   $(document).ready(function() {
 
     // Based on: http://www.ewal.net/2012/09/08/octopress-customizations/
+    // Wraps each img element in an anchor as expected by fancybox.
     $('.entry-content').each(function(i){
       var _i = i;
       $(this).find('img.fancybox').each(function(){
