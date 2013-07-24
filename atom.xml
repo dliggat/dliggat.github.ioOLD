@@ -4,7 +4,7 @@
   <title><![CDATA[liggat.org]]></title>
   <link href="http://liggat.org/atom.xml" rel="self"/>
   <link href="http://liggat.org/"/>
-  <updated>2013-07-24T19:27:12-04:00</updated>
+  <updated>2013-07-24T19:30:23-04:00</updated>
   <id>http://liggat.org/</id>
   <author>
     <name><![CDATA[Dave Liggat]]></name>
@@ -91,71 +91,6 @@
 <p>I know this probably seems excessive, but having a catastrophic data loss in the past [many years ago] will do that to a person<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
 </ol>
 </div>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Testing images]]></title>
-    <link href="http://liggat.org/2013/07/20/testing-images/"/>
-    <updated>2013-07-20T12:11:00-04:00</updated>
-    <id>http://liggat.org/2013/07/20/testing-images</id>
-    <content type="html"><![CDATA[<p><button class="btn btn-large btn-primary" type="button">Large button</button></p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque augue vitae sem tempus auctor. Proin et dui ac sem consequat ornare. Aenean non ornare est. Etiam vitae ultrices elit, vulputate pretium lorem. Praesent quis diam ut libero ornare mollis id ut lorem. Cras rutrum vitae neque sed tincidunt. Sed vel hendrerit orci. Etiam accumsan euismod molestie. Proin ut vulputate enim. Nulla sit amet mi pretium, lobortis sem a, molestie lorem. Quisque eu molestie velit. Ut at purus neque. Aliquam rutrum lectus gravida ipsum lacinia, et auctor tortor tristique. Sed et condimentum neque, in ultrices libero. Nullam non odio luctus, elementum magna id, aliquam justo.</p>
-
-<h4>File goes into images &ndash; then specify dimensions for how it should display</h4>
-
-<p><img class="center" src="http://liggat.org/images/email.png" width="350" height="350" title="This is a title" alt="This is an alt title"></p>
-
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pellentesque augue vitae sem tempus auctor. Proin et dui ac sem consequat ornare. Aenean non ornare est. Etiam vitae ultrices elit, vulputate pretium lorem. Praesent quis diam ut libero ornare mollis id ut lorem. Cras rutrum vitae neque sed tincidunt. Sed vel hendrerit orci. Etiam accumsan euismod molestie. Proin ut vulputate enim. Nulla sit amet mi pretium, lobortis sem a, molestie lorem. Quisque eu molestie velit. Ut at purus neque. Aliquam rutrum lectus gravida ipsum lacinia, et auctor tortor tristique. Sed et condimentum neque, in ultrices libero. Nullam non odio luctus, elementum magna id, aliquam justo.</p>
-
-<p>This <a href="http://google.com">is a link</a> wouldn&rsquo;t you agree?</p>
-
-<h4>Codeblock style</h4>
-
-<figure class='code'> <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="k">if</span> <span class="n">parts</span> <span class="o">=</span> <span class="vi">@text</span><span class="o">.</span><span class="n">match</span><span class="p">(</span><span class="sr">/([a-zA-Z\d]*) (.*)/</span><span class="p">)</span>
-</span><span class='line'>  <span class="n">gist</span><span class="p">,</span> <span class="n">file</span> <span class="o">=</span> <span class="n">parts</span><span class="o">[</span><span class="mi">1</span><span class="o">].</span><span class="n">strip</span><span class="p">,</span> <span class="n">parts</span><span class="o">[</span><span class="mi">2</span><span class="o">].</span><span class="n">strip</span>
-</span><span class='line'>  <span class="n">script_url</span> <span class="o">=</span> <span class="n">script_url_for</span> <span class="n">gist</span><span class="p">,</span> <span class="n">file</span>
-</span><span class='line'>  <span class="n">code</span>       <span class="o">=</span> <span class="n">get_cached_gist</span><span class="p">(</span><span class="n">gist</span><span class="p">,</span> <span class="n">file</span><span class="p">)</span> <span class="o">||</span> <span class="n">get_gist_from_web</span><span class="p">(</span><span class="n">gist</span><span class="p">,</span> <span class="n">file</span><span class="p">)</span>
-</span><span class='line'>  <span class="n">html_output_for</span> <span class="n">script_url</span><span class="p">,</span> <span class="n">code</span>
-</span><span class='line'><span class="k">else</span>
-</span><span class='line'>  <span class="s2">&quot;&quot;</span>
-</span><span class='line'><span class="k">end</span>
-</span></code></pre></td></tr></table></div></figure>
-
-
-<h4>Gist style</h4>
-
-<div><script src='https://gist.github.com/5990988.js?file=gistfile1.sh'></script>
-<noscript><pre><code># A consistent title for 'paperless' documents.
-# Usage:
-#    $ title Apple ipod Receipt
-#    $ [2013-07-08 =&gt; apple ipod receipt] copied to clipboard.
-# Then paste directly into Evernote, etc.
-function title {
-  title_str=`date '+%Y-%m-%d'`
-  title_str=&quot;$title_str =&gt;&quot;
-  while [ $1 ]
-  do
-    lower=`echo $1 | awk '{print tolower($0)}'`  # Lower() the string, purely for consistency.
-    title_str=&quot;$title_str $lower&quot;
-    shift
-  done
-  title_str=&quot;$title_str (Paperless)&quot;
-  echo $title_str | pbcopy
-  echo &quot;[$title_str] copied to clipboard.&quot;
-}</code></pre></noscript></div>
-
-
 
 ]]></content>
   </entry>
