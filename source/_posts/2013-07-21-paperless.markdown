@@ -35,7 +35,7 @@ For example:
 
     2013-07-11 => apple ipod receipt (Paperless)
 
-I reasoned that the date (hat tip to [ISO8601](https://en.wikipedia.org/wiki/ISO_8601) for its equivalent chronological and lexicographical sorting) is important enough for later retrieval to warrant hard coding in the title metadata[^1]. You can find the bash snippet for this in [this gist](https://gist.github.com/liggsie/5990988).
+I reasoned that the date (hat tip to [ISO8601](https://en.wikipedia.org/wiki/ISO_8601) for its equivalent chronological and lexicographical sorting) is important enough for later retrieval to warrant hard coding in the title metadata[^1]. You can find the bash snippet for this in [this gist](https://gist.github.com/dliggat/5990988).
 
 #### Security
 

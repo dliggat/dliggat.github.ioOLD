@@ -3,7 +3,11 @@
 
 // Note: applies styling to h1 elements with class="entry-title".
 h1.entry-title {
-  font-family: "Helvetica Neue", "Roboto", Arial;
+  font-family: $entry-title;
+}
+
+.entry-content {
+  font-family: $entry-content;
 }
 
 .meta {
