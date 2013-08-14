@@ -21,7 +21,7 @@ From a clean install[^2], I've now got a fully-specified, version-controlled, [b
 * Install system-wide gems (e.g. `pry`) and homebrew packages (e.g. `sqlite`, `markdown`)
 * Define and spin-up resources needed on a per project basis, which for a rails app likely includes local MySQL or PostgreSQL instances, a cloned git repository, and a redis server
 * Set up my text editor of choice, [Sublime Text 2](http://www.sublimetext.com/2), and install the plethora of plugins and preferences that I use
-* Set OS X system preferences for the Dock, Dashboard, Trackpad, etc, and even your wallpaper if you're so inclined
+* Set OS X system preferences for the Dock, Dashboard, Trackpad, etc, and even your wallpaper if you want
 
 {% codeblock Boxen/Puppet allows encapsulation of automation areas into 'classes' lang:rb %}
 class people::dliggat {
