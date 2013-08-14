@@ -4,7 +4,7 @@
   <title><![CDATA[liggat.org]]></title>
   <link href="http://liggat.org/atom.xml" rel="self"/>
   <link href="http://liggat.org/"/>
-  <updated>2013-08-11T19:43:26-04:00</updated>
+  <updated>2013-08-13T23:02:41-04:00</updated>
   <id>http://liggat.org/</id>
   <author>
     <name><![CDATA[Dave Liggat]]></name>
@@ -56,7 +56,7 @@
 <pre><code>2013-07-11 =&gt; apple ipod receipt (Paperless)
 </code></pre>
 
-<p>I reasoned that the date (hat tip to <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO8601</a> for its equivalent chronological and lexicographical sorting) is important enough for later retrieval to warrant hard coding in the title metadata<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. You can find the bash snippet for this in <a href="https://gist.github.com/liggsie/5990988">this gist</a>.</p>
+<p>I reasoned that the date (hat tip to <a href="https://en.wikipedia.org/wiki/ISO_8601">ISO8601</a> for its equivalent chronological and lexicographical sorting) is important enough for later retrieval to warrant hard coding in the title metadata<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>. You can find the bash snippet for this in <a href="https://gist.github.com/dliggat/5990988">this gist</a>.</p>
 
 <h4>Security</h4>
 
