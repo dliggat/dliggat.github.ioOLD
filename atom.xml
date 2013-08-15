@@ -4,7 +4,7 @@
   <title><![CDATA[liggat.org]]></title>
   <link href="http://liggat.org/atom.xml" rel="self"/>
   <link href="http://liggat.org/"/>
-  <updated>2013-08-14T11:12:42-04:00</updated>
+  <updated>2013-08-15T14:57:14-04:00</updated>
   <id>http://liggat.org/</id>
   <author>
     <name><![CDATA[Dave Liggat]]></name>
@@ -33,11 +33,11 @@
 <li>Set up, and store my GitHub credentials<sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup> for convenient push/pull to authorized repositories</li>
 <li>Install system-wide versions of git, node.js, and rubies (1.8.7, 1.9.3, 2.0.0)<sup id="fnref:4"><a href="#fn:4" rel="footnote">4</a></sup></li>
 <li>Install standard apps like Dropbox, Chrome, iTerm and even VMWare Fusion</li>
+<li>Set my fussy OS X system preferences for the Dock, Dashboard, Trackpad, etc</li>
 <li>Clone my <a href="https://github.com/dliggat/dotfiles">dotfile repository</a> and define various symlinks from <code>~</code> into that repo; e.g. <code>~/.bashrc -&gt; /Users/daveliggat/git/dotfiles/bashrc</code>, plus define any other symlinks or environment variables that I might want to have</li>
 <li>Install system-wide gems (e.g. <code>pry</code>) and homebrew packages (e.g. <code>sqlite</code>, <code>markdown</code>)</li>
 <li>Define and spin-up resources needed on a per project basis, which for a rails app likely includes local MySQL or PostgreSQL instances, a cloned git repository, and a redis server</li>
 <li>Set up my text editor of choice, <a href="http://www.sublimetext.com/2">Sublime Text 2</a>, and install the plethora of plugins and preferences that I use</li>
-<li>Set OS X system preferences for the Dock, Dashboard, Trackpad, etc, and even your wallpaper if you want</li>
 </ul>
 
 
@@ -75,7 +75,7 @@
 
 <p><a href="https://plus.google.com/+BrunoOliveira">Bruno Oliveira</a> captured the essence of why automation is so great in a widely circulated <a href="https://plus.google.com/+BrunoOliveira/posts/MGxauXypb1Y">chart</a> a year or so ago:</p>
 
-<p><img class="center" src="http://liggat.org/images/geeks.png" width="550" title="'Title'" ></p>
+<p><img class="fancybox center" src="http://liggat.org/images/geeks.png" width="550" title="'Geeks'" ></p>
 
 <h3>Appendix, or Why I like OS X</h3>
 
