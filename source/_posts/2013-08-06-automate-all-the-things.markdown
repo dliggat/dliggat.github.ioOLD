@@ -17,11 +17,11 @@ From a clean install[^2], I've now got a fully-specified, version-controlled, [b
 * Set up, and store my GitHub credentials[^3] for convenient push/pull to authorized repositories
 * Install system-wide versions of git, node.js, and rubies (1.8.7, 1.9.3, 2.0.0)[^4]
 * Install standard apps like Dropbox, Chrome, iTerm and even VMWare Fusion
+* Set my fussy OS X system preferences for the Dock, Dashboard, Trackpad, etc
 * Clone my [dotfile repository](https://github.com/dliggat/dotfiles) and define various symlinks from `~` into that repo; e.g. `~/.bashrc -> /Users/daveliggat/git/dotfiles/bashrc`, plus define any other symlinks or environment variables that I might want to have
 * Install system-wide gems (e.g. `pry`) and homebrew packages (e.g. `sqlite`, `markdown`)
 * Define and spin-up resources needed on a per project basis, which for a rails app likely includes local MySQL or PostgreSQL instances, a cloned git repository, and a redis server
 * Set up my text editor of choice, [Sublime Text 2](http://www.sublimetext.com/2), and install the plethora of plugins and preferences that I use
-* Set OS X system preferences for the Dock, Dashboard, Trackpad, etc, and even your wallpaper if you want
 
 {% codeblock Boxen/Puppet allows encapsulation of automation areas into 'classes' lang:rb %}
 class people::dliggat {
@@ -45,7 +45,7 @@ If anything, everything I've written here *understates* how capable Boxen is. I'
 
 [Bruno Oliveira](https://plus.google.com/+BrunoOliveira) captured the essence of why automation is so great in a widely circulated [chart](https://plus.google.com/+BrunoOliveira/posts/MGxauXypb1Y) a year or so ago:
 
-{% img center /images/geeks.png 550 'Title' %}
+{% img fancybox center /images/geeks.png 550 'Geeks' %}
 
 ### Appendix, or Why I like OS X
 

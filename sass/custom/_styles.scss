@@ -19,6 +19,10 @@ li {
   margin-bottom: 10px;
 }
 
+time {
+  text-transform: capitalize;
+}
+
 
 // Note: apply the same rules to both ul and ol items, but these are otherwise unrelated.
 ul, ol {
