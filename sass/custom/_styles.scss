@@ -8,6 +8,9 @@ h1.entry-title {
 
 .entry-content {
   font-family: $entry-content;
+  a, a:active, a:visited {  // Style links within .entry-content divs. Get rid of visited colours.
+    color: #0066CC;
+  }
 }
 
 .meta {
@@ -21,10 +24,6 @@ li {
 
 time {
   text-transform: capitalize;
-}
-
-a, a:active, a:visited {
-  color: #0066CC;
 }
 
 $cad-red:  #800000;
@@ -52,6 +51,14 @@ $usd-blue: #0000A0;
     &.price {
       border: 1px solid $cad-red;
       @include money-block;
+    }
+  }
+}
+
+thead {
+  tr {
+    td {
+      font-weight: bold;
     }
   }
 }
