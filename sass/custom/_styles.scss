@@ -9,6 +9,7 @@ h1.entry-title {
 .entry-content {
   font-family: $entry-content;
   a, a:active, a:visited {  // Style links within .entry-content divs. Get rid of visited colours.
+    white-space: nowrap;
     color: #0066CC;
   }
 }
