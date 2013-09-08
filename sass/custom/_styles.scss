@@ -1,15 +1,23 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
+$cad-red:  #800000;
+$usd-blue: #0000A0;
+
 // Note: applies styling to h1 elements with class="entry-title".
 h1.entry-title {
   font-family: $entry-title;
 }
 
+h4 {
+  margin-bottom: 2px;
+}
+
 .entry-content {
   font-family: $entry-content;
-  a, a:active, a:visited {  // Style links within .entry-content divs. Get rid of visited colours.
+  a, a:visited {  // Style links within .entry-content elements Get rid of visited colours.
     white-space: nowrap;
+    text-decoration: none;
     color: #0066CC;
   }
 }
@@ -27,8 +35,6 @@ time {
   text-transform: capitalize;
 }
 
-$cad-red:  #800000;
-$usd-blue: #0000A0;
 @mixin money-block {
   border-radius: 0.4em;
   display: inline-block;
@@ -56,6 +62,7 @@ $usd-blue: #0000A0;
   }
 }
 
+// Style the td elements within tr rows in thead blocks (column titles, in other words).
 thead {
   tr {
     td {
