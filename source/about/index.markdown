@@ -13,7 +13,7 @@ Primarily - as a creative outlet. I've always enjoyed writing, and I like the op
 
 I believe it is important to own your own identity and content online, especially if you work in technology. This makes [Octopress](http://octopress.org) very appealing for long-form writing versus one of the various social platforms, which I have no particular confidence will still exist in a decade.
 
-As a bonus, Octopress is an interesting and highly-configurable technology playground, and a good way for me, as a server/data/analytics guy, to get some healthy ongoing exposure to front-end technologies.
+As a bonus, Octopress is an interesting and highly-configurable technology playground, and a good way for me, as a server/data/analytics guy, to get some healthy ongoing exposure to web front-end technologies.
 
 ## Contact
 
