@@ -17,7 +17,7 @@ As a bonus, Octopress is an interesting and highly-configurable technology playg
 
 ## Contact
 
-If you need to reach me, Twitter is a good starting point. If you @-mention me with a request, I can follow back, and then you can send me a [private] DM.
+Choose your own adventure below. Twitter is never a bad starting point.
 
 #### Twitter
 * [@liggs](https://twitter.com/liggs): My canonical personal account online. Mostly used for inane observations and retweets.
