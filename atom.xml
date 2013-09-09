@@ -4,7 +4,7 @@
   <title><![CDATA[liggat.org]]></title>
   <link href="http://liggat.org/atom.xml" rel="self"/>
   <link href="http://liggat.org/"/>
-  <updated>2013-09-08T20:14:12-04:00</updated>
+  <updated>2013-09-09T16:44:40-04:00</updated>
   <id>http://liggat.org/</id>
   <author>
     <name><![CDATA[Dave Liggat]]></name>
@@ -12,6 +12,27 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Farewell, old friend]]></title>
+    <link href="http://liggat.org/2013/09/09/farewell-old-friend/"/>
+    <updated>2013-09-09T15:39:00-04:00</updated>
+    <id>http://liggat.org/2013/09/09/farewell-old-friend</id>
+    <content type="html"><![CDATA[<p>iOS 7<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup> and a new iPhone are imminent. <!--more--> Tomorrow is Apple Christmas Morning.</p>
+
+<p>It&rsquo;s the end of the road for <a href="http://en.wikipedia.org/wiki/Iphone_4s">you</a>, my old friend.</p>
+
+<p><img class="center" src="http://liggat.org/images/2013/iphone_4s.png" width="400" title="'iPhone 4S'" ></p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>I fully expect this screenshot to look hilariously out of date once iOS 7 is rolled out everywhere and the new aesthetic is &lsquo;normal&rsquo; and not at all novel. I won&rsquo;t miss stitched leather one bit.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Efficient Currency Conversion]]></title>
