@@ -21,7 +21,7 @@ Choose your own adventure below. Twitter is never a bad starting point.
 
 #### Twitter
 * [@liggs](https://twitter.com/liggs): My canonical personal account online. Mostly used for inane observations and retweets.
-* [@liggat_org](https://twitter.com/liggat_org): An [IFFTT](http://ifftt.com)-generated feed of this site's items.
+* [@liggat_org](https://twitter.com/liggat_org): An [IFTTT](http://ifttt.com)-generated feed of this site's items.
 
 #### GitHub
 I spend most of my workday with GitHub always close to hand. I'm [dliggat](https://github.com/dliggat) there. I've got various projects there in the public domain, including my [dotfiles](https://github.com/dliggat/dotfiles) and my [boxen repository]([dotfiles](https://github.com/dliggat/boxen). Feel free to use/modify any of that stuff, and let me know if you need any help.
