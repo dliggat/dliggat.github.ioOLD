@@ -11,7 +11,7 @@ I'm Dave Liggat, an independent software engineer with a Ruby on Rails/Analytics
 ## Why Does this Site Exist?
 Primarily - as a creative outlet. I've always enjoyed writing, and I like the opportunity for permanence that the web provides. Also, it's fascinating to me to get insight into my past personality and interests - so I post things here (and on Twitter) of current interest knowing that I'm basically queuing up future entertainment & reflection for myself. I use [Everpix](http://everpix.com) for the same reason.
 
-I believe it is important to own your own identity and content online, especially if you work in technology. This makes [Octopress](http://octopress.org) very appealing for long-form writing versus one of the various social platforms, which I have no particular confidence will still exist in a decade.
+I believe it is important to own your own identity and content online, especially if you work in tech. This makes [Octopress](http://octopress.org) very appealing for long-form writing versus one of the various social platforms, which I have no particular confidence will still exist in a decade.
 
 As a bonus, Octopress is an interesting and highly-configurable technology playground, and a good way for me, as a server/data/analytics guy, to get some healthy ongoing exposure to web front-end technologies.
 
