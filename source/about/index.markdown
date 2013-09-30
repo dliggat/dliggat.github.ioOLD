@@ -6,7 +6,7 @@ footer: false
 ---
 
 ## Who am I?
-I'm Dave Liggat, an independent software engineer with a Ruby on Rails/Analytics/Infrastructure/AWS (and, once in a while ASP.NET) focus. Opinions are my own. Contact details below.
+I'm Dave Liggat, an independent software engineer with a strong focus on Ruby on Rails, Data Analytics and Web & Analytics Infrastructure (and, once in a while, ASP.NET). Opinions are my own. Contact details below.
 
 ## Why Does this Site Exist?
 Primarily - as a creative outlet. I've always enjoyed writing, and I like the opportunity for permanence that the web provides. Also, it's fascinating to me to get insight into my past personality and interests - so I post things here (and on Twitter) of current interest knowing that I'm basically queuing up future entertainment & reflection for myself. I use [Everpix](http://everpix.com) for the same reason.
@@ -20,7 +20,7 @@ As a bonus, Octopress is an interesting and highly-configurable technology playg
 Choose your own adventure below. Twitter is never a bad starting point.
 
 #### Twitter
-* [@liggs](https://twitter.com/liggs): My canonical personal account online. Mostly used for inane observations and retweets.
+* [@liggs](https://twitter.com/liggs): My canonical online identity. Mostly used as a news aggregator, with occasional inane observations and retweets.
 * [@liggat_org](https://twitter.com/liggat_org): An [IFTTT](http://ifttt.com)-generated feed of this site's items.
 
 #### GitHub
