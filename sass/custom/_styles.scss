@@ -1,8 +1,9 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-$cad-red:  #800000;
-$usd-blue: #0000A0;
+$cad-red:    #800000;
+$usd-blue:   #0000A0;
+$link-color: #0066CC;
 
 article {
   h1, h2, h3, h4 {
@@ -10,6 +11,25 @@ article {
   }
 }
 
+// This thoroughly scoped thing targets CSS on *pages* (not posts) - like the about
+// or contact pages.
+div > article {
+  font-family: $entry-content;
+  a, a:visited {
+    text-decoration: none;
+    white-space: nowrap;
+    color: $link-color;
+  }
+  > h1 {
+    margin-bottom: 0.6em;
+  }
+  > h4 {
+    margin-bottom: 0.4em;
+  }
+}
+
+
+// Site title and subtitle.
 header hgroup {
   h1 {
     font-size: 1.8em;
@@ -19,25 +39,24 @@ header hgroup {
   }
 }
 
+// Footer stuff.
 footer p {
   margin-bottom: 0.1em;
   line-height: 1.3em;
-}
-
-aside.sidebar section h1 {
-  font-family: $sans;
-  font-weight: normal;
-  padding-bottom: 0.6em;
 }
 
 #duration-statement {
   font-size: 85%;
 }
 
-h4 {
-  margin-bottom: 2px;
+// Sidebar stuff.
+aside.sidebar section h1 {
+  font-family: $sans;
+  font-weight: normal;
+  padding-bottom: 0.6em;
 }
 
+// Navbar stuff.
 body > nav {
   border-top: none;
   border-bottom: none;
