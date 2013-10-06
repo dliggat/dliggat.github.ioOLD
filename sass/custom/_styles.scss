@@ -4,6 +4,7 @@
 $cad-red:    #800000;
 $usd-blue:   #0000A0;
 $link-color: #0066CC;
+$copy-color: #333333;
 
 article {
   h1, h2, h3, h4 {
@@ -11,10 +12,26 @@ article {
   }
 }
 
+article, nav {
+  // Subtle button effect when clicking links.
+  a:active {
+    position: relative;
+    top: 1px;
+  }
+  a, a:visited, a:hover {
+    text-decoration: none !important;
+  }
+}
+
+.entry-content p, ul, ol {
+  color: $copy-color;
+}
+
+
 // This thoroughly scoped thing targets CSS on *pages* (not posts) - like the about
 // or contact pages.
 div > article {
-  font-family: $entry-content;
+  font-family: $entry-content;  // Consider google web font oxygen.
   a, a:visited {
     text-decoration: none;
     white-space: nowrap;
@@ -145,7 +162,7 @@ ul, ol {
     color: #888888;        // Note: style the ol number only by styling the whole ol, then the nested p.
     p {
       margin-bottom: 1em;
-      color: #000000;      // Note: generates:  .footnotes ol p { color: #000000; }
+      color: $copy-color;  // Note: generates:  .footnotes ol p { color: #000000; }
                            // Applies styling to all p elements which have
                            // descendance: .footnotes -> ol -> p.
     }

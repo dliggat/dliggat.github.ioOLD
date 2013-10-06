@@ -10,7 +10,7 @@ description: Contact details for Dave Liggat
 Choose your own adventure below. Twitter is never a bad starting point.
 
 #### Twitter
-* [@liggs](https://twitter.com/liggs): My canonical online identity. Mostly used as a news aggregator, with occasional inane observations and retweets.
+* [@liggs](https://twitter.com/liggs): My canonical online identity. Mostly used as a news aggregator, with occasional inane observations and retweets. Posted photos end up [here](http://instagram.com/liggs).
 * [@liggat_org](https://twitter.com/liggat_org): An [IFTTT](http://ifttt.com)-generated feed of this site's items.
 
 #### GitHub
