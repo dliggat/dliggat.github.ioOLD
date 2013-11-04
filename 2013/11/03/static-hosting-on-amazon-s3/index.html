@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Android as Anti-Platform - Dave Liggat</title>
+  <title>Static Hosting on Amazon S3 - Dave Liggat</title>
   <meta name="author" content="Dave Liggat">
 
   
-  <meta name="description" content="It feels awkward to criticize Android as the owner of several physical manifestations of the pride of Cupertino. That ownership seems to irrevocably &hellip;">
+  <meta name="description" content="I&rsquo;ve had an outstanding todo for quite some time to migrate my basic and essentially-static business website off of Squarespace. I ended up &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://liggat.org/2013/05/11/android-as-anti-platform">
+  <link rel="canonical" href="http://liggat.org/2013/11/03/static-hosting-on-amazon-s3">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="Dave Liggat" type="application/atom+xml">
@@ -81,7 +81,7 @@
   
   <header>
     
-      <h1 class="entry-title">Android as Anti-Platform</h1>
+      <h1 class="entry-title">Static Hosting on Amazon S3</h1>
     
     
       <p class="meta">
@@ -97,24 +97,63 @@
   
 
 
-<time datetime="2013-05-11T09:55:00-04:00" pubdate data-updated="true">May 11<span>th</span>, 2013</time>
+<time datetime="2013-11-03T13:13:00-05:00" pubdate data-updated="true">November 3<span>rd</span>, 2013</time>
         
       </p>
     
   </header>
 
 
-<div class="entry-content"><p>It feels awkward to criticize Android as the owner of several physical manifestations of the pride of Cupertino. That ownership seems to irrevocably wash away any possibility of one’s objectivity in the court of Android opinion, despite what ought to count as pretty good “Android credentials&#8221; (I’m a happy alumni of the G1, Nexus One, HTC Desire HD and Nexus 7, and participated in beta-testing/review of the G1 before it was announced as a consumer product). <!--more--> And yet, it’s impossible for me not to voice displeasure at what Samsung is now up to:</p>
+<div class="entry-content"><p>I&rsquo;ve had an outstanding <strong>todo</strong> for quite some time to migrate my basic and essentially-static <a href="http://www.factorialsystems.ca">business website</a> off of <a href="http://www.squarespace.com">Squarespace</a>. I ended up replacing it with a combination of <a href="http://octopress.org">Octopress</a> and Amazon Simple Storage Service (<a href="http://aws.amazon.com/s3">S3</a>), which, it turns out, are a fantastic duo.<!--more--></p>
 
-<blockquote><p>In an unprecedented move Samsung announced a deal on Thursday to make an established, high profile
-Android app incompatible with every Android smartphone except its own. The app in question is ITV
-Player, the catch up service for ITV &ndash; the UK’s largest independent terrestrial broadcaster</p></blockquote>
+<h3>Prelude</h3>
 
-<p>In retrospect, the ideals of Android were hopelessly optimistic: a modern, mobile platform unicorn that would disrupt, humble, and commoditize the carriers, and unite the hardware manufacturers into providing a cornucopia of consumer choice. It should’ve been obvious, at least, that the cellular gatekeepers would not be trounced so easily &ndash; which is why we now live in a world of forked carrier versions of Android, serviceable hardware hobbled by the lack of carrier-controlled OS updates, and needless “value-adding differentiation&#8221; of software on devices. At least much of that could be avoided by sticking with pure-Android Nexus devices, bought straight from Google.</p>
+<p>A brief prelude: Squarespace is fantastic, and should be the first port of call for anyone, especially a business, who needs a website. I can&rsquo;t even enumerate the number of ostensibly well-run restaurants and businesses who either don&rsquo;t have a website, or if they do, it&rsquo;s some horrid Flash-payload thing that won&rsquo;t run on the primary device customers tend to be using at the point of need: their phones! Squarespace isn&rsquo;t free, but is totally worth the small monthly cost for pretty much anyone.</p>
 
-<p>But consider the subversion of Android that this latest chess-move by Samsung represents. They’ve managed to outright exclude Nexus owners from ITV Player in favour of their own devices, using, undoubtedly, the persuasive power of currency. I’m not sure that a precedent for this exists elsewhere in the computing industry’s [rather cutthroat] past. Imagine if Dell successfully convinced Adobe that Photoshop should only be compatible with their particular incarnation of Windows XP machines. Consequently, Android is no longer simply <em>not-a-platform</em> (thanks to the carriers); it has in fact become an <em>anti-platform</em> &ndash; an agent of chaos among existing Android network-effects.</p>
+<p>I started my business site there due to a combination of being overwhelmingly-busy at the time, as well as generally curious about the service&hellip; but it eventually became time for me to move on<sup id="fnref:1"><a href="#fn:1" rel="footnote">1</a></sup>.</p>
 
-<p>All things considered, it’s just one more disappointment in a long line. But I wish the anti-Apple brigade would spend even 10% of the energy they have for generating vitriol in protest of the destructive actions of the subversive actors in the Android space. This is why, in May 2013, iOS remains the only serious mobile computing <em>platform</em>. I wish it were not thus, but I’m not optimistic this will change any time soon.</p>
+<h3>Octopress</h3>
+
+<p>I&rsquo;ve become quite enamoured with Octopress &ndash; the blogging engine that I use for this site (and host on GitHub). I like to think of it as the anti-Wordpress &ndash; it produces good, old-fashioned directory trees of HTML pages from <a href="http://en.wikipedia.org/wiki/Markdown">markdown</a>-formatted source files and <a href="http://sass-lang.com/">SASS</a> style sheets. No application server or database, and the attendant care and feeding, required &ndash; just a plain old web server serving files<sup id="fnref:2"><a href="#fn:2" rel="footnote">2</a></sup>. This is a perfect choice, it turns out, for a basic company site. It has all the necessary infrastructure for blogging, should that become necessary, and has built-in responsive design and other niceties.</p>
+
+<h3>Hosting</h3>
+
+<p>S3 is Amazon Web Services&#8217; online file storage service (distributed, redundant, RESTful, etc). It is purportedly used as the persistence backend for <a href="http://dropbox.com">Dropbox</a>, among others. My needs are considerably more modest &ndash; I just want it to store and serve my site content. It turns out it has an option for exactly this purpose:</p>
+
+<p><img class="center" src="/images/2013/s3.png" width="600" title="'S3 Static Website Hosting'" ></p>
+
+<p>Thus, a static website with Octopress and S3 requires that you simply:</p>
+
+<ol>
+<li>create content within an Octopress repository</li>
+<li>execute Octopress&#8217; <code>bundle exec rake generate</code> to produce static HTML</li>
+<li>deploy the output to an S3 bucket (<code>bundle exec rake deploy</code>)</li>
+</ol>
+
+
+<h3>Deploying</h3>
+
+<p>Out of the box, Octopress does not know how to deploy to S3. That&rsquo;s easily remedied via an extension to the <code>Rakefile</code> that I found via this <a href="http://www.jerome-bernard.com/blog/2011/08/20/quick-tip-for-easily-deploying-octopress-blog-on-amazon-s3/">blog post</a>. With that <code>s3</code> rake task added, and S3 bucket variables defined, it&rsquo;s simply a matter of running <code>bundle exec rake deploy</code>. to deploy new content. The underlying <code>s3cmd</code> is, obviously, smart enough to only send content deltas to the S3 bucket.</p>
+
+<h3>Cost</h3>
+
+<p>At the time of writing, Amazon charges 9.5¢ per Gigabyte-month for the first 1TB of storage (cheaper thereafter), plus 0.5¢ per 1000 RESTful (GET, PUT, etc) operations, plus some minimal data transfer charge. One reasonable way to describe this might be: <strong>extremely inexpensive</strong>!</p>
+
+<h3>So Far, So Good</h3>
+
+<p>Thus far, I&rsquo;m really happy with this setup. My personal blog, this site, is currently hosted on <a href="http://pages.github.com">GitHub Pages</a><sup id="fnref:3"><a href="#fn:3" rel="footnote">3</a></sup>, but I&rsquo;ll probably move this over to S3 also. Obviously, the static site constraint remains &ndash; I can&rsquo;t, for instance, have a page with a form, or an XHR endpoint, etc. But if those should become necessary &ndash; it&rsquo;s very easy to upgrade to an EC2 instance with Rails, and remain within the Amazon ecosystem. I guess that&rsquo;s how they get you&hellip;</p>
+<div class="footnotes">
+<hr/>
+<ol>
+<li id="fn:1">
+<p>Squarespace is definitely overkill for a static site if you have the time, knowledge and inclination to host it elsewhere. But many website-needing entities do not possess the intersection of those properties &ndash; hence the genius of Squarespace as a product itself.<a href="#fnref:1" rev="footnote">&#8617;</a></p></li>
+<li id="fn:2">
+<p>This resultant simplicity has an inherent appeal &ndash; not dissimilar to that, for me, of iOS vs OS X. The former trades possibility for simplicity &ndash; a desirable exchange in many (but obviously not all) scenarios.<a href="#fnref:2" rev="footnote">&#8617;</a></p></li>
+<li id="fn:3">
+<p>GitHub Pages hosts static sites for free &ndash; not wishing to trespass on GitHub&rsquo;s awesomeness, I reasoned that I should probably pay for the business site&rsquo;s hosting. All 68¢ of it, or whatever the final bill ends up being.<a href="#fnref:3" rev="footnote">&#8617;</a></p></li>
+</ol>
+</div>
+
 </div>
 
 
@@ -137,7 +176,7 @@ Player, the catch up service for ITV &ndash; the UK’s largest independent terr
   
 
 
-<time datetime="2013-05-11T09:55:00-04:00" pubdate data-updated="true">May 11<span>th</span>, 2013</time>
+<time datetime="2013-11-03T13:13:00-05:00" pubdate data-updated="true">November 3<span>rd</span>, 2013</time>
       
 
 
@@ -145,7 +184,7 @@ Player, the catch up service for ITV &ndash; the UK’s largest independent terr
     
       <div class="sharing">
   
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://liggat.org/2013/05/11/android-as-anti-platform/" data-via="" data-counturl="http://liggat.org/2013/05/11/android-as-anti-platform/" >Tweet</a>
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://liggat.org/2013/11/03/static-hosting-on-amazon-s3/" data-via="" data-counturl="http://liggat.org/2013/11/03/static-hosting-on-amazon-s3/" >Tweet</a>
   
   
   
@@ -154,10 +193,8 @@ Player, the catch up service for ITV &ndash; the UK’s largest independent terr
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/2013/05/07/tweet-archive/" title="Previous Post: Tweet Archive">&laquo; Tweet Archive</a>
+        <a class="basic-alignment left" href="/2013/10/15/walter-white/" title="Previous Post: Walter White, Art Aficionado">&laquo; Walter White, Art Aficionado</a>
       
-      
-        <a class="basic-alignment right" href="/2013/07/14/octopress-dot-new/" title="Next Post: Octopress.new">Octopress.new &raquo;</a>
       
     </p>
   </footer>
@@ -250,8 +287,8 @@ Player, the catch up service for ITV &ndash; the UK’s largest independent terr
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://liggat.org/2013/05/11/android-as-anti-platform/';
-        var disqus_url = 'http://liggat.org/2013/05/11/android-as-anti-platform/';
+        var disqus_identifier = 'http://liggat.org/2013/11/03/static-hosting-on-amazon-s3/';
+        var disqus_url = 'http://liggat.org/2013/11/03/static-hosting-on-amazon-s3/';
         var disqus_script = 'embed.js';
       
     (function () {
