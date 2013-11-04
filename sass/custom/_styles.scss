@@ -10,6 +10,9 @@ article {
   h1, h2, h3, h4 {
     font-family: $entry-title;
   }
+  h1 {
+    font-size: 1.8em;
+  }
 }
 
 article, nav {
@@ -25,6 +28,7 @@ article, nav {
 
 .entry-content p, ul, ol {
   color: $copy-color;
+//  font-size: .9em;
 }
 
 
