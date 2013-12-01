@@ -45,6 +45,10 @@ article, nav {
   a, a:visited, a:hover {
     text-decoration: none !important;
   }
+//  a:hover {
+////    border-bottom: 1px solid;  // OR
+////    text-decoration: underline !important;
+//  }
 }
 
 .entry-content p, ul, ol {
