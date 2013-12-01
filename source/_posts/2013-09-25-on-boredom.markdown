@@ -3,7 +3,7 @@ layout: post
 title: "On Boredom"
 date: 2013-09-25 09:32
 comments: true
-categories:
+categories: introspection tech_societal
 ---
 [Another][louisck] of Louis C.K.'s hilarious talk-show interview diatribes is being widely circulated on the web and Twitter right now - this time about smartphones, and why he won't let his children have one. It's well worth a watch, but his argument essentially boils down to the observation that smartphones provide a constant stream of distraction that removes the condition, boredom, that is arguably necessary for healthy self-reflection.<!--more-->
 

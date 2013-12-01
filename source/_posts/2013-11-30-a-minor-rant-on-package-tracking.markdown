@@ -3,7 +3,7 @@ layout: post
 title: "A Minor Rant on Package Tracking"
 date: 2013-11-30 23:11
 comments: true
-categories: rant
+categories: rant software
 ---
 I do a fair bit of online shopping[^1], and have done so for pretty much my entire credit-card owning life. It's a familiar ritual: every time, shortly after I've clicked `Purchase`, an email arrives containing a linked phrase with roughly the following copy: *Click here to track your shipment*. <!--more-->And every time I receive that email, I dutifully click that link, only to be met with the following 404-esque response:
 

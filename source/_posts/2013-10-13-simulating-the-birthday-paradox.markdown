@@ -3,7 +3,7 @@ layout: post
 title: "Simulating the Birthday Paradox"
 date: 2013-10-13 10:59
 comments: true
-categories:
+categories: math ruby software
 ---
 Probability theory is a pretty special branch of mathematics in the sense that it is (1) highly applicable to daily life; (2) many of its results are easily comprehensible to most people; and yet despite this (3) it remains a profoundly complex area of mathematical inquiry[^1].<!--more-->
 

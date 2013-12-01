@@ -3,7 +3,7 @@ layout: post
 title: "Farewell, old friend"
 date: 2013-09-09 15:39
 comments: false
-categories:
+categories: mobile
 ---
 iOS 7[^1] and a new iPhone are imminent. <!--more--> Tomorrow is Apple Christmas Morning.
 
