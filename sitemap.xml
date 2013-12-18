@@ -2,74 +2,78 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://liggat.org/2013/05/07/tweet-archive/</loc>
-        <lastmod>2013-12-01T10:16:32-05:00</lastmod>
+        <lastmod>2013-12-16T07:03:41-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/2013/05/11/android-as-anti-platform/</loc>
-        <lastmod>2013-12-01T10:16:20-05:00</lastmod>
+        <lastmod>2013-12-16T07:03:41-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/2013/07/14/octopress-dot-new/</loc>
-        <lastmod>2013-12-01T10:16:17-05:00</lastmod>
+        <lastmod>2013-12-16T07:03:41-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/2013/07/21/paperless/</loc>
-        <lastmod>2013-12-01T10:16:03-05:00</lastmod>
+        <lastmod>2013-12-16T07:03:41-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/2013/08/06/automate-all-the-things/</loc>
-        <lastmod>2013-12-01T10:16:51-05:00</lastmod>
+        <lastmod>2013-12-16T07:03:41-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/2013/09/03/a-comparatively-golden-age-of-software/</loc>
-        <lastmod>2013-12-01T10:16:56-05:00</lastmod>
+        <lastmod>2013-12-16T07:03:41-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/2013/09/06/efficient-currency-conversion/</loc>
-        <lastmod>2013-12-01T10:17:03-05:00</lastmod>
+        <lastmod>2013-12-16T07:03:41-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/2013/09/09/farewell-old-friend/</loc>
-        <lastmod>2013-12-01T10:17:10-05:00</lastmod>
+        <lastmod>2013-12-16T07:03:41-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/2013/09/25/on-boredom/</loc>
-        <lastmod>2013-12-01T10:17:27-05:00</lastmod>
+        <lastmod>2013-12-16T07:03:41-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/2013/10/13/simulating-the-birthday-paradox/</loc>
-        <lastmod>2013-12-01T10:17:40-05:00</lastmod>
+        <lastmod>2013-12-16T07:03:41-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/2013/10/15/walter-white/</loc>
-        <lastmod>2013-10-16T23:06:18-04:00</lastmod>
+        <lastmod>2013-12-12T16:54:35-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/2013/11/03/static-hosting-on-amazon-s3/</loc>
-        <lastmod>2013-12-01T10:17:56-05:00</lastmod>
+        <lastmod>2013-12-16T07:03:41-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/2013/11/30/a-minor-rant-on-package-tracking/</loc>
-        <lastmod>2013-12-01T10:49:22-05:00</lastmod>
+        <lastmod>2013-12-16T07:03:41-08:00</lastmod>
+    </url>
+    <url>
+        <loc>http://liggat.org/2013/12/15/canadian-housing-noting-for-posterity/</loc>
+        <lastmod>2013-12-18T09:48:12-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/about/</loc>
-        <lastmod>2013-11-06T10:00:48-05:00</lastmod>
+        <lastmod>2013-12-12T16:54:35-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/archives/</loc>
-        <lastmod>2013-12-01T10:49:22-05:00</lastmod>
+        <lastmod>2013-12-18T09:48:12-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/contact/</loc>
-        <lastmod>2013-10-03T10:20:53-04:00</lastmod>
+        <lastmod>2013-12-12T16:54:35-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/</loc>
-        <lastmod>2013-12-01T10:49:22-05:00</lastmod>
+        <lastmod>2013-12-18T09:48:12-08:00</lastmod>
     </url>
     <url>
         <loc>http://liggat.org/robots.txt</loc>
-        <lastmod>2013-09-29T20:28:32-04:00</lastmod>
+        <lastmod>2013-12-12T16:54:36-08:00</lastmod>
     </url>
 </urlset>
